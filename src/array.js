@@ -15,17 +15,17 @@ export const arrayInfo = [
         puesto: "Teach Lead"
     },
     {
-        img: "./public/recursos/images/photo4.png",
+        img: "./photo4.png",
         name: "Skylah Lu",
         puesto: "UX Designer"
     },
     {
-        img: "./public/recursos/images/photo5.png",
+        img: "./photo5.png",
         name: "Griff Richards",
         puesto: "Developer"
     },
     {
-        img: "./public/recursos/images/photo6.png",
+        img: "./photo6.png",
         name: "Stan John",
         puesto: "Developer"
     },

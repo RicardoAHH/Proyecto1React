@@ -5,12 +5,12 @@ export const arrayInfo = [
         puesto: "Product Owner"
     },
     {
-        img: "./public/recursos/images/photo2.png",
+        img: "./photo2.png",
         name: "Saba Cabrera",
         puesto: "Art Director"
     },
     {
-        img: "./public/recursos/images/photo3.png",
+        img: "./photo3.png",
         name: "Shae Le",
         puesto: "Teach Lead"
     },

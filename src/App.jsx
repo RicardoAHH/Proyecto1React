@@ -11,6 +11,7 @@ import { arrayInfo } from './array.js'
 
 
 function App() {
+
   return (
     <>
       <div className="lg:flex "><Header />

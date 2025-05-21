@@ -8,7 +8,7 @@ export default function Parrafo() {
                 <p className='font-semibold pb-5'>We are team creatively diverse. driven. <br /> innovate individuals working in various <br /> locations from the world.</p>
             </div>
             <div className='lg:flex lg:justify-end lg:items-start lg:w-[40px]'>
-                <button className='flex items-center justify-center w-[100%] max-lg:hidden pt-3'><img src="/moon.png" alt="moon" width={245} /></button>
+                <button className='flex items-center justify-center w-[100%] max-lg:hidden pt-3'><img src="./moon.png" alt="moon" width={245} /></button>
             </div>
         </>
     )

@@ -4,10 +4,10 @@ import React from 'react'
 
 export default function Tarjeta({ foto, puesto, nombre }) {
     return (
-        <div className=' w-[150px] h-[200px] flex flex-wrap relative'>
-            <img className='w-30' src={foto} alt="foto" />
-            <div className='w-5 absolute'>  <p className=' rotate-90 w-30 h-8 mt-12 ml-18'>{puesto}</p></div>
-            <p className='w-[100%] font-bold'>{nombre}</p>
+        <div className=' w-[180px] lg:w-[240px]  flex items-center justify-center flex-wrap relative'>
+            <img className='w-[70%] lg:w-[100%]' src={foto} alt="foto" />
+            <div className='w-[100%] h-[100%] absolute'>  <p className='w-[100%] text-black lg:text-2xl rotate-90 h-[100%] absolute right-[10%] -top-2'>{puesto}</p></div>
+            <p className='w-[100%] text-black font-bold text-center lg:text-2xl'>{nombre}</p>
         </div>
 
     )

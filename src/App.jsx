@@ -13,15 +13,17 @@ import { arrayInfo } from './array.js'
 function App() {
   return (
     <>
-      <Header />
-      <div className='flex justify-center ml-5'><Parrafo /></div>
-      <div className=' grid grid-cols-2  place-items-center'>
+      <div className="lg:flex "><Header />
+        <div className='w-full lg:w-[50%] flex justify-center lg:justify-end ml-5'><Parrafo />
+        </div>
+      </div>
+      <div className=' grid grid-cols-2 lg:grid-cols-3 place-items-center'>
         {arrayInfo.map((e, index) => (
-          <div key={index} className={`${index % 2 !== 0 ? 'mt-15' : '-mt-15'}`}>
+          <div key={index} className={`${index % 2 !== 0 ? 'mt-15' : '-mt-15'} ${index === 1 || index === 4 ? 'lg:mt-15' : 'lg:-mt-15'}`}>
             <Tarjeta foto={e.img} puesto={e.puesto} nombre={e.name} />
           </div>
-        ))}</div>
-
+        ))}
+      </div>
     </>
   )
 }

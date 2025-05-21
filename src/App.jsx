@@ -6,7 +6,7 @@ import './App.css'
 import Header from './components/Header'
 import Parrafo from './components/Parrafo'
 import Tarjeta from './components/Tarjeta'
-
+import { arrayInfo } from './array.js'
 
 
 
@@ -15,10 +15,14 @@ function App() {
     <>
       <Header />
       <div className='flex justify-center ml-5'><Parrafo /></div>
-      <Tarjeta foto="/recursos/images/photo1.png" puesto="Product Owner" nombre="Bil Mahoney" />
+      <div className=' grid grid-cols-2  place-items-center'>
+        {arrayInfo.map((e, index) => (
+          <div key={index} className={`${index % 2 !== 0 ? 'mt-15' : '-mt-15'}`}>
+            <Tarjeta foto={e.img} puesto={e.puesto} nombre={e.name} />
+          </div>
+        ))}</div>
 
     </>
-
   )
 }
 

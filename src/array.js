@@ -1,6 +1,6 @@
 export const arrayInfo = [
     {
-        img: "./dist/recursos/images/photo1.png",
+        img: "../public/photo1.png",
         name: "Bil Mahoney",
         puesto: "Product Owner"
     },
